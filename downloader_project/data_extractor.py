@@ -42,7 +42,7 @@ def get_customdate_object(csv_file: DataFrame) -> CustomDate:
         custom_date_obj.add_to_hours(date_list[i].split()[1][:8])
     return custom_date_obj
 
-custom_get_object = get_customdate_object('target.csv')
+custom_date_object = get_customdate_object('target.csv')
 #print(custom_get_object.get_dates_list())
 #print(custom_get_object.get_hours_list())
 
